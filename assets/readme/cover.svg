@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">悬浮岛 · MN0709 project cover</title>
+  <desc id="desc">悬浮岛 1.5.1 工作台设计封面；这是矢量示意图，不是应用实拍截图。</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#053D86"/>
+      <stop offset="0.48" stop-color="#075AA9"/>
+      <stop offset="1" stop-color="#078ACD"/>
+    </linearGradient>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0966B2"/>
+      <stop offset="0.5" stop-color="#3195D3"/>
+      <stop offset="1" stop-color="#1079C5"/>
+    </linearGradient>
+    <linearGradient id="pill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1164B9"/>
+      <stop offset="1" stop-color="#2F9DFA"/>
+    </linearGradient>
+    <linearGradient id="ui-glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1C71BE"/>
+      <stop offset="0.52" stop-color="#3B9BD8"/>
+      <stop offset="1" stop-color="#55B9E6"/>
+    </linearGradient>
+    <linearGradient id="scene-glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#70BAE9"/>
+      <stop offset="0.48" stop-color="#8FD7F2"/>
+      <stop offset="1" stop-color="#3D99D7"/>
+    </linearGradient>
+    <linearGradient id="site-glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C9F2FF"/>
+      <stop offset="0.56" stop-color="#A4DAF6"/>
+      <stop offset="1" stop-color="#66B8E9"/>
+    </linearGradient>
+    <linearGradient id="caustic" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6DCAFF" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#CEFFFF" stop-opacity="0.65"/>
+      <stop offset="0.5" stop-color="#7EE2FF" stop-opacity="0.05"/>
+      <stop offset="0.78" stop-color="#D8A8FF" stop-opacity="0.52"/>
+      <stop offset="1" stop-color="#69E7FF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="aura" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#8BF7FF" stop-opacity="0.78"/>
+      <stop offset="0.45" stop-color="#44CBFF" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#44CBFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rainbow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#FFE9BE" stop-opacity="0.45"/>
+      <stop offset="0.32" stop-color="#C99CFF" stop-opacity="0.22"/>
+      <stop offset="0.67" stop-color="#6CFCED" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#6CFCED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="flare" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="0.18" stop-color="#C2FFFF" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#67D9FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="5" stdDeviation="11" flood-color="#A5F9FF" flood-opacity="0.5"/>
+    </filter>
+    <filter id="soft-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <clipPath id="window-clip"><rect x="31" y="155" width="578" height="166" rx="18"/></clipPath>
+    <clipPath id="card-clip"><rect x="1" y="1" width="638" height="358" rx="25"/></clipPath>
+  </defs>
+  <rect x="2" y="2" width="636" height="356" rx="26" fill="#24DCFF" opacity="0.55" filter="url(#soft-glow)"/>
+  <rect x="0.5" y="0.5" width="639" height="359" rx="26" fill="url(#background)" stroke="#BDFBFF" stroke-width="1.5"/>
+  <g clip-path="url(#card-clip)">
+    <ellipse cx="115" cy="116" rx="185" ry="141" fill="url(#aura)" opacity="0.35"/>
+    <ellipse cx="496" cy="285" rx="186" ry="168" fill="url(#aura)" opacity="0.56"/>
+    <ellipse cx="328" cy="16" rx="172" ry="93" fill="url(#rainbow)" opacity="0.8"/>
+    <ellipse cx="540" cy="65" rx="125" ry="93" fill="url(#rainbow)" opacity="0.85"/>
+    <ellipse cx="50" cy="258" rx="158" ry="136" fill="url(#rainbow)" opacity="0.38"/>
+    <ellipse cx="390" cy="196" rx="134" ry="115" fill="url(#rainbow)" opacity="0.34"/>
+    <path d="M-20 136C155 40 220 171 372 68S568 99 666-15" fill="none" stroke="url(#caustic)" stroke-width="40" opacity="0.73" filter="url(#soft-glow)"/>
+    <path d="M-35 354C140 267 308 366 430 256S592 284 669 207" fill="none" stroke="url(#caustic)" stroke-width="34" opacity="0.72" filter="url(#soft-glow)"/>
+    <path d="M-10 47C126 5 176 94 312 52S498 86 652 17" fill="none" stroke="url(#caustic)" stroke-width="18" opacity="0.5" filter="url(#soft-glow)"/>
+    <path d="M33 347C131 289 194 343 274 302S384 308 444 274" fill="none" stroke="#C5FEFF" stroke-width="6" opacity="0.18" filter="url(#soft-glow)"/>
+    <path d="M-8 181C147 63 276 218 407 102S566 108 647 16" fill="none" stroke="#A6FCFF" stroke-width="2" opacity="0.15"/>
+    <path d="M-13 356C132 270 262 340 427 242S553 280 650 191" fill="none" stroke="#C8FCFF" stroke-width="2" opacity="0.22"/>
+    <ellipse cx="526" cy="2" rx="90" ry="31" fill="url(#flare)" opacity="0.48"/>
+    <ellipse cx="84" cy="357" rx="84" ry="30" fill="url(#flare)" opacity="0.38"/>
+  </g>
+  <path d="M1 50.5h638" stroke="#A9EDFF" stroke-opacity="0.48"/>
+  <circle cx="29" cy="25" r="5" fill="#FC7D9B"/>
+  <circle cx="47" cy="25" r="5" fill="#FFE26D"/>
+  <circle cx="65" cy="25" r="5" fill="#71FFB0"/>
+  <text x="90" y="29" fill="#E8FAFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="11" letter-spacing="2">MN0709 / SELECTED WORK</text>
+  <text x="584" y="29" fill="#F4FCFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-weight="700" font-size="12" text-anchor="end">01 / 01</text>
+  <rect x="31" y="72" width="4" height="63" rx="2" fill="#A9F7FF" filter="url(#shadow)"/>
+  <text x="47" y="104" fill="#FFFFFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="29" font-weight="750" letter-spacing="-0.7">悬浮岛</text>
+  <text x="48" y="130" fill="#E9F8FF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="15" font-weight="600">把待办与轻量工作台收进 Mac 顶部</text>
+  <rect x="482" y="78" width="125" height="25" rx="12.5" fill="url(#pill)" stroke="#D5F9FF" filter="url(#shadow)"/>
+  <text x="544.5" y="95" text-anchor="middle" fill="#FFFFFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2">MAC DESKTOP</text>
+  <rect x="31" y="155" width="578" height="166" rx="18" fill="url(#surface)" stroke="#B8F8FF" stroke-width="1.7" filter="url(#shadow)"/>
+  <g clip-path="url(#window-clip)">
+    <!-- Illustrative redraw of the local 1.5.1 workbench, not a screenshot. -->
+    <rect x="31" y="155" width="578" height="33" fill="url(#ui-glass)"/>
+    <rect x="44" y="163" width="80" height="17" rx="8.5" fill="#BCEFFF" fill-opacity="0.25" stroke="#C8FAFF"/>
+    <path d="m54 171 4-4 4 4v5h-8z" fill="none" stroke="#E6FFFF" stroke-width="1.2" stroke-linejoin="round"/>
+    <text x="68" y="175" fill="#FFFFFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="9" font-weight="700">工作台</text>
+    <rect x="130" y="163" width="54" height="17" rx="8.5" fill="#3A9ED9" fill-opacity="0.43" stroke="#A1EFFF"/>
+    <text x="157" y="175" text-anchor="middle" fill="#F5FDFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="9" font-weight="700">待办</text>
+    <rect x="190" y="163" width="88" height="17" rx="8.5" fill="#3A9ED9" fill-opacity="0.43" stroke="#A1EFFF"/>
+    <text x="234" y="175" text-anchor="middle" fill="#F5FDFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="9" font-weight="700">code 列表</text>
+    <rect x="284" y="163" width="54" height="17" rx="8.5" fill="#3A9ED9" fill-opacity="0.43" stroke="#A1EFFF"/>
+    <text x="311" y="175" text-anchor="middle" fill="#F5FDFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="9" font-weight="700">笔记</text>
+    <rect x="344" y="163" width="84" height="17" rx="8.5" fill="#3A9ED9" fill-opacity="0.43" stroke="#A1EFFF"/>
+    <text x="386" y="175" text-anchor="middle" fill="#F5FDFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="9" font-weight="700">电脑状态</text>
+    <rect x="520" y="163" width="65" height="17" rx="8.5" fill="#0B4584" stroke="#B8F8FF"/>
+    <path d="M535 169a5 5 0 0 1 8 5m-8-1a5 5 0 0 0 8-5" fill="none" stroke="#C7FBFF" stroke-width="1.2" stroke-linecap="round"/>
+    <circle cx="559" cy="171.5" r="3" fill="#76F2C6"/>
+    <path d="M568 172h8" stroke="#C7FBFF" stroke-width="1.5" stroke-linecap="round"/>
+
+    <rect x="45" y="197" width="146" height="110" rx="13" fill="url(#ui-glass)" stroke="#9EEBFF" stroke-width="1.3"/>
+    <text x="58" y="214" fill="#F5FDFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700">专注计时</text>
+    <circle cx="72" cy="252" r="16" fill="#9FE6FA" fill-opacity="0.35" stroke="#D1FAFF"/>
+    <path d="m68 244 11 8-11 8z" fill="#EEFFFF"/>
+    <text x="97" y="261" fill="#FFFFFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="29" font-weight="750" letter-spacing="-0.7">25:00</text>
+    <rect x="58" y="286" width="120" height="4" rx="2" fill="#C9F3FF" fill-opacity="0.4"/>
+    <rect x="58" y="286" width="42" height="4" rx="2" fill="#D9FFFF"/>
+
+    <rect x="199" y="197" width="202" height="110" rx="13" fill="url(#ui-glass)" stroke="#9EEBFF" stroke-width="1.3"/>
+    <text x="213" y="214" fill="#F5FDFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700">电脑状态</text>
+    <text x="213" y="237" fill="#E5FAFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="9" font-weight="700">CPU</text>
+    <text x="303" y="237" fill="#E5FAFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="9" font-weight="700">内存</text>
+    <text x="213" y="267" fill="#FFFFFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="27" font-weight="750">38%</text>
+    <text x="303" y="267" fill="#FFFFFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="27" font-weight="750">90%</text>
+    <rect x="213" y="279" width="74" height="5" rx="2.5" fill="#BFEFFF" fill-opacity="0.43"/>
+    <rect x="213" y="279" width="29" height="5" rx="2.5" fill="#9FE9FF"/>
+    <rect x="303" y="279" width="80" height="5" rx="2.5" fill="#BFEFFF" fill-opacity="0.43"/>
+    <rect x="303" y="279" width="72" height="5" rx="2.5" fill="#C6A3FF"/>
+
+    <rect x="409" y="197" width="185" height="110" rx="13" fill="url(#ui-glass)" stroke="#9EEBFF" stroke-width="1.3"/>
+    <text x="423" y="214" fill="#F5FDFF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700">待办速览</text>
+    <rect x="423" y="229" width="158" height="18" rx="7" fill="#BCEFFF" fill-opacity="0.2"/>
+    <rect x="432" y="234" width="8" height="8" rx="2" fill="#76D8F0" stroke="#C8FAFF"/>
+    <path d="m434 238 2 2 3-4" fill="none" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round"/>
+    <rect x="449" y="236" width="94" height="4" rx="2" fill="#CCF6FF"/>
+    <rect x="423" y="253" width="158" height="18" rx="7" fill="#BCEFFF" fill-opacity="0.2"/>
+    <rect x="432" y="258" width="8" height="8" rx="2" fill="none" stroke="#C8FAFF"/>
+    <rect x="449" y="260" width="73" height="4" rx="2" fill="#CCF6FF"/>
+    <rect x="423" y="277" width="158" height="18" rx="7" fill="#BCEFFF" fill-opacity="0.2"/>
+    <rect x="432" y="282" width="8" height="8" rx="2" fill="none" stroke="#C8FAFF"/>
+    <rect x="449" y="284" width="107" height="4" rx="2" fill="#CCF6FF"/>
+  </g>
+  <g clip-path="url(#window-clip)" opacity="0.2">
+    <ellipse cx="518" cy="169" rx="178" ry="60" fill="url(#flare)"/>
+    <path d="M25 328C155 249 226 340 347 256S539 270 630 184" fill="none" stroke="url(#caustic)" stroke-width="17" filter="url(#soft-glow)"/>
+  </g>
+  <rect x="32" y="156" width="576" height="164" rx="17" fill="none" stroke="#FFFFFF" stroke-opacity="0.52"/>
+  <path d="M46 160h141M452 316h142" stroke="#DBFDFF" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+  <circle cx="300" cy="156" r="3" fill="#FFFFFF"/>
+  <ellipse cx="365" cy="155" rx="36" ry="10" fill="url(#flare)"/>
+  <ellipse cx="36" cy="314" rx="28" ry="11" fill="url(#flare)" opacity="0.75"/>
+  <ellipse cx="606" cy="309" rx="32" ry="11" fill="url(#flare)" opacity="0.75"/>
+  <circle cx="40" cy="340" r="3" fill="#A9F7FF"/>
+  <text x="50" y="344" fill="#E4F9FF" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans CJK SC, PingFang SC, sans-serif" font-size="10" font-weight="700" letter-spacing="1.8">FLOATING DESKTOP WORKSPACE</text>
+  <path d="M580 341h23m-7-7 7 7-7 7" fill="none" stroke="#EEFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
