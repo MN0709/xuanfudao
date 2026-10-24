@@ -64,4 +64,4 @@ npm start
 
 ## 来源与许可
 
-这个仓库整理并展示本机使用的悬浮岛 **1.5.1** 源码。项目基于[小普的 TO-DO Panel](https://github.com/xiaopu-ai/TO-DO-Panel) 发展。源码版权与许可见 [LICENSE](LICENSE)，第三方组件与图标来源见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+这个仓库整理并展示本机使用的悬浮岛 **1.5.1** 源码。源码版权与许可见 [LICENSE](LICENSE)，第三方组件与图标来源见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
